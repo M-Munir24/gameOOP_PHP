@@ -28,14 +28,8 @@ if ($hewan1->get_nama() == 'elang') {
 	$fight1->attackPower(10);
 	$fight1->defencePower(5);
 
-
-	 $demeg = $hewan1->get_darah() - $fight1->get_attackPower() / $fight1->get_defencePower();
-
     echo "Nama = ".$hewan1->get_nama()."<br>";
-
     echo "jumlah Kaki = ".$hewan1->get_jumlahKaki()."<br>";
-
-    echo "Darah = ".$demeg."<br>";
     echo "Defence Power = ".$fight1->get_defencePower()."<br>";
     echo "Attack Power = ".$fight1->get_attackPower()."<br>";
 
