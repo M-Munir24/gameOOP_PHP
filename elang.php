@@ -30,6 +30,7 @@ if ($hewan1->get_nama() == 'elang') {
 
     echo "Nama = ".$hewan1->get_nama()."<br>";
     echo "jumlah Kaki = ".$hewan1->get_jumlahKaki()."<br>";
+    echo "Darah = ".$hewan1->get_darah()."<br>";
     echo "Defence Power = ".$fight1->get_defencePower()."<br>";
     echo "Attack Power = ".$fight1->get_attackPower()."<br>";
 
